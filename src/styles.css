@@ -1,0 +1,158 @@
+
+body {
+    margin: 0;
+}
+.container {
+ }
+.shopName {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 2em;
+    left:42%;
+    top:10px;
+    background-color: #F2F2F2;
+    height: 100px;
+}
+.menu {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: #ADD8E6;
+    width: 99%;
+    height: 50px;
+    margin: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.items {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 155px;
+    background-color:  #F2F2F2;
+    width: 74.5%;
+    height: 90%;
+    margin: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.card {
+    width: 250px;
+    height: 330px;
+    margin: 5px;
+    border: 2px solid red;
+    background-color: #D3D3D3;
+    position: relative;
+}
+.name {
+    background-color: #D6C7B3;
+    width: 140px;
+    height: 1.2em;
+    position: absolute;
+    top: 230px;
+    left: 50px;
+    border: 3px solid black;
+}
+.price {
+    background-color: #D6C7B3;
+    width: 50px;
+    height: 1.2em;
+    position: absolute;
+    top: 270px;
+    left: 50px;
+    border: 3px solid black;
+}
+.pic {
+    width: 200px;
+    height: 200px;
+
+    position: absolute;
+    top: 10px;
+    left: 50px;
+
+}
+.button {
+    width: 80px;
+    position:absolute;
+    top: 270px;
+    left: 120px;
+}
+.cart {
+    position: absolute;
+    top: 155px;
+    left: 75%;
+    background-color: #FAEBD7;
+    width: 24%;
+    height: 90%;
+    margin: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#buttonB {
+    width: 80px;
+    position:absolute;
+    top: 10px;
+    left: 30px;
+}
+#buttonC {
+    width: 80px;
+    position:absolute;
+    top: 10px;
+    right: 30px;
+}
+#totalPrice {
+    background-color: #D6C7B3;
+    width: 40%;
+    height: 1.2em;
+    position: absolute;
+    top: 50px;
+    left: 30%;
+    border: 3px solid black;
+}
+#cartHeader {
+    width: 400px;
+    height: 80px;
+    position: relative;
+}
+#cartItems {
+    width: 300px;
+    height: 85%;
+    position: absolute;
+    top: 90px;
+    left: 90px;
+    display: flex;
+    flex-direction: column;
+}
+.itemInCart {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    width: 280px;
+    height: 70px;
+    background-color:#FAEBD7;
+    margin: 10px;
+}
+.priceInCart {
+    background-color: #D6C7B3;
+    width: 230px;
+    height: 1.2em;
+    border: 3px solid black;
+    left: 30px;
+    top:40px;
+}
+.nameInCart {
+    background-color: #D6C7B3;
+    width: 120px;
+    height: 1.2em;
+    border: 3px solid black;
+    left: 30px;
+    top:10px;
+}
+.cancelItemInCart {
+    position:relative;
+    width: 80px;
+    height: 2em;
+    left: 30px;
+}
